@@ -1,0 +1,287 @@
+	/*Start:hero*/
+	#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+	}
+	#demo img {
+		
+		}
+	demo img:hover {
+	  -ms-transform: scale(1.1); /* IE 9 */
+	  -webkit-transform: scale(1.); /* Safari 3-8 */
+	  transform: scale(1.1); 
+		}
+	/*end:hero*/
+		.card{
+			margin:1rem;
+		}
+	.slick-slider {
+      margin-top: ;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .slick-prev, .slick-next {
+      background-color: #000;
+      border-radius: 50%;
+    }
+	.Bussiness{
+		background:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/11/theme-04-600x589.jpg");
+		background-size:cover;
+	}
+	.hero .card-body{
+		background:white;
+	}
+		.hero .card-body:hover{
+			background:none;
+		}
+		/ card  /
+		.Consultant{
+	  perspective: 1000px;
+	  background:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/11/theme-04-600x589.jpg");
+	}
+
+	.card-flip {
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  transform-style: preserve-3d;
+	  transition: transform 0.6s;
+	  
+	}
+
+	.card-container:hover .card-flip {
+	  transform: rotateY(180deg);
+	}
+	.card-flip {
+		
+		
+	}
+
+	.card-front,
+	.card-back {
+	  position: absolute;
+	  width: 100%;
+	  backface-visibility: hidden;
+	}
+
+	.card-back {
+	  transform: rotateY(180deg);
+	}
+	/*Start:agenda*/
+	.agenda {
+		line-height:4vh;
+	}
+	.agenda .col-md{
+		background:#fff;
+	}
+	.agenda .col-md:hover {
+		background:red;
+		box-shadow: 10px 10px red;
+		color:white;
+		
+	}
+	/*Start:memory*/
+	.memory{
+	background:url("https://demo.casethemes.net/consultio/wp-content/themes/csuti/assets/images/testimonial-overlay.png");
+	}
+	/*Start:questions*/
+	.questions{
+	background:url("../img/az.jpg");
+	background-repeat:no-repeat;
+	}
+	/*team-work*/
+	.position-reletive {
+		background:white;		
+	}
+	.positions {
+		margin-top:-10%;
+	}
+	 /*<!-- Team-work-cards --!>	*/	  
+	   .team{
+		   background:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/12/bg-slider-03.jpg");
+		  background-size:cover;
+	   }
+	   .team-members{			
+			text-align:center;
+			width:;
+			align-content:center;
+			display:flex;
+			justify-content:center;
+	   }
+	   .team-members-cards{
+		   float:left;
+		   width:30%;
+		   margin:;
+		   margin-left:;
+	   }
+	   .member{
+		   margin:auto;
+		   margin-top:-5vh;
+		   width:30vh;
+		   height:15vh;
+		   background-color:#FFFfff;		  
+		   position:relative;
+		   
+		   transition-duration: 0.5s;	
+		border-radius:15px;
+	   }
+	   .member .pop-up p{
+		    color:#fff ;
+	   }
+	    .member .pop-up p:hover{
+			 color:#FFFfff;
+			unicode-bidi: isolate;
+	   }
+	   .member:hover {		   
+		   height:15vh;
+		   margin-top:-6vh;
+		   animation: mymove infinite;
+		   animation-duration: 3s;	
+		   background:#234598;		   
+	   }
+	   .review {
+		   background:#000;
+	   }
+	   .review:hover {
+		  background:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/11/theme-01-600x589.jpg");
+		  background-size:;
+			background-attachment: fixed;
+		background-position: right top;		  
+	   }
+	   /*Start:  market*/
+	   . market img{
+	   }
+	   /*Start: footer*/
+	   .footer {
+      background-color: #101010;
+      padding: 40px 20px;
+    }
+    .footer h3 {
+      font-size: 18px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+    .footer p,
+    .footer a {
+      font-size: 14px;
+      color: #ccc;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #fff;
+    }
+    .open-hours {
+      color: #f90;
+    }
+    .newsletter-input {
+      border: none;
+      outline: none;
+      border-radius: 4px;
+    }
+    .newsletter-btn {
+      background-color: #e6492d;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 15px;
+    }
+    .newsletter-btn:hover {
+      background-color: #d5361b;
+    }
+	.list-unstyled li a:hover {
+		border:white;
+	}
+	.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+  height: 100%;
+}
+.text {
+  white-space: nowrap; 
+  color: ;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.marketes {
+	background-image:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/11/theme-14.jpg");
+	background-attachment: fixed;
+	background-position: cover;	
+}
+.informations{
+	background: rgba(0, 0, 0, 0.5);
+}
+.request{
+	background: rgba(0, 0, 0, 0.5);
+	color:#fff;
+}
+.librarys {
+	margin-top:;
+	margin-left:3rem;
+	background-color:white;
+	display:block;
+	position:attachment;
+	z-index:3;
+}
+.btn-l {
+	display:none;	
+}
+.btn-l:hover {
+	display:block;
+	
+}
+.librarys:hover{
+	display:block;
+	background:light;
+}
+/**/
+.memory  {
+	background:url("https://demo.casethemes.net/consultio/wp-content/uploads/2019/12/bg-section-02.png");
+	
+}
+.memorys{
+	background: rgba(0, 0, 0, 0.5);
+	
+}
+.parnter img:hover{
+			filter:none;
+			background:none;
+			transform:scale();
+		}
+		.parnter img{
+	padding:4vh;
+			filter:grayscale(100%);
+			transition:filter 0.5s ease;
+}
+	::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+ 
+	  
+	   
