@@ -1,0 +1,135 @@
+	/*Start:hero-styles*/
+	.hero {
+		background:url("../img/h8-bg-section1.jpg");
+		background-size:cover;
+		}
+	/*Start:Hero*/
+	/*Start:Vision-styles*/
+		.Suppor-card:hover {
+		}
+	/*Start:Vision-styles*/
+	/*Start:Vision-styles*/
+		.Vision:hover {
+			background:url("../img/theme-07.jpg");
+			background-size:cover;
+			color:#fff;
+		}
+		.Consultancy:hover{
+			background:url("../img/theme-09.jpg");
+			background-size:cover;
+			color:#fff;
+		}
+		.leadership:hover{
+			background:url("../img/theme-05.jpg");
+			background-size:cover;
+			color:#fff;
+		}
+	/*Start:Fan facts-styles*/
+	/*Start:Fan facts-styles*/
+		.fun-facts{
+			background-image:url("../img/h8-bg-section2.png");
+			background-repeat:no-repeat;
+			background-size:;	
+		}
+	/*End:Fan facts-styles*/
+	/*Start:Latest blog-styles*/
+		.facts{
+			background:url("https://demo.casethemes.net/consultio-coach/wp-content/uploads/2020/02/h8-man2.png");
+			background-size:cover;
+		}
+	/*End:Latest blog-styles*/
+	.card-img-container {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.card-img-top {
+	  transition: transform 0.2s ease;
+	  width: 100%;
+	  height: auto;
+	}
+	.card-body-sm {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background-color: rgba(255, 255, 255, 0.8);
+	  padding: 1rem;
+	  opacity: 0;
+	  transition: opacity 0.2s ease;
+	}
+	.card-img-container:hover .card-body-sm {
+	  opacity: 1;
+	}
+	.card-img-container:hover .card-img-top {
+	  transform: scale(1.2);
+	}
+	.img img:hover {
+	  transform: scale(1.1);
+	}
+	.card {
+	  overflow: hidden; 
+	}
+	.card img {
+	  transition: transform 0.9s ease-in-out;
+	}
+	.card:hover img {
+	  transform: scale(1.2); /
+	}
+	.texts:hover{
+		color:#d624be;
+	}
+	/*Start:Portfolios-styles*/
+	.Portfolio .card {
+		border:none;	
+		overflow: hidden;
+		}
+	.Portfolio .card img{
+	}
+	.Portfolio .card img:hover {
+		transition: transform 5s;
+		-ms-transform: scale();
+		-webkit-transform: scale(); 
+		transform: scale(1.05); 	
+		}
+	.overlay {
+		  position: absolute; 
+		  bottom: 30rem;  
+		  transition: .5s ease;
+		  opacity:0;
+		  padding: 10px;
+		  text-align: center;
+		  opacity: 1;
+		}
+	/*End:Portfolios-styles*/
+	/*Start:contact us*/
+	iframe {
+		filter:grayscale(100%);
+		transition:filter 0.5s ease;
+	}
+	/*End :Contact us style*/
+	/*Start:footer style*/
+	footer{
+		background-image:url("https://demo.casethemes.net/consultio-coach/wp-content/uploads/2019/11/theme-09.jpg");
+	background-attachment: fixed;
+	background-position: cover;	
+	}
+	.footer{
+		background: rgba(0, 0, 1, 0.9);
+	}
+	.list-unstyled li a, i {
+		color:#ccc;
+		text-decoration:none;
+		transform:5s;
+		transition: transform 5s;
+	}
+	.list-unstyled li a:hover {
+		color:#fff;
+		margin-left:1vh;
+		border-bottom:solid 1px #fff;
+		
+	}
+	.list-unstyled li i:hover{
+		margin-top:-2vh;
+		transition: transform 5s;
+	}
+	/*End:footer style*/
