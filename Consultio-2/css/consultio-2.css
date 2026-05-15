@@ -1,0 +1,130 @@
+ /*Start: Global*/
+	* {
+		font-family:sens, serif;
+	}
+/*End: Global*/
+	/*Start:Header*/
+	header{
+		background:url(../img/bg-slider1.jpg)no-repeat;
+		background-size: cover;
+		}
+	/*End::Header*/
+	/*Start:insurance-cards*/
+	.insurance-cards .insurance {
+		background:green;
+		
+	}
+	.insurance-cards button:hover {
+		color:#fff;
+		background:green;	
+	}
+	.insurance-cards .row {
+		background:;
+	}
+	 .insurance-cards .borders {
+		 border:2px solid #F0F0F0;
+		 border-top:10px solid #F0F0F0;
+		 transition: 2s;
+		 }
+	 .insurance-cards .borders:hover {
+			transition: 2s;
+			border-top-color:green;
+			background :;
+	 }
+	/*End:insurance-cards*/
+	/*Start: Get-a-Quote*/
+	.Get-a-Quote {
+		background:url(../img/bg-col1.jpg)no-repeat ;
+		 background-size: cover;
+	}
+	/*End: Get-a-Quote*/
+	/*Start:Latest-News */
+	.News img:hover {
+	  transform: scale(1.1);
+	 transition: 2s;
+	}
+	.News .card:hover {
+	  margin-top:-2vh;
+	  margin-bottom:2vh;
+	 transition: 1s;
+	}
+	.Latest-News a:hover {
+		background:#000;
+		color:#fff;
+		transition: 1s;
+	}
+	/*End:Latest-News */
+	/*Start:footer */
+	footer .address {
+		background-image:url("../img/bg-footer-top.png");
+		background-size:cover;
+	}
+	footer{
+		background-image:url("../img/bg-footer.jpg") ;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.footer{
+	}
+	.list-unstyled li a, i {
+		color:#ccc;
+		text-decoration:none;
+		transition: 2s;
+	}
+	.list-unstyled li a:hover {
+		color:#fff;
+		margin-left:1vh;
+		border-bottom:solid 1px #fff;
+	}
+	.list-unstyled li i:hover{
+		margin-top:5vh;
+	}
+	/*Start:footer Gallery style*/
+	* {
+		box-sizing: border-box;
+		}
+	footer .container {
+	  position: relative;
+	  width: 50%;
+	  max-width: 300px;
+	}
+	footer .image {
+	  display: block;
+	  width:100%;
+	  height: auto;
+	}
+	footer .overlay {
+	  position: absolute; 
+	  bottom: 0; 
+	  background: rgb(0, 0, 0);
+	  background: rgba(0, 0, 0, 0.5); /* Black see-through */ 
+	  width: 80%;
+	  height: 100%;
+	  transition: .5s ease;
+	  opacity:0;
+	  color: white;
+	  text-align: center;  
+	}
+	footer .container:hover .overlay {
+	  opacity: 1;
+	}
+	/*Start:Footer-Gallery style*/
+	/*End:footer style*/
+	/* Bottom Arrow Icon */
+  .bottom-icon10 {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	z-index:3;
+}
