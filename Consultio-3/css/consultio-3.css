@@ -1,0 +1,162 @@
+* {
+	font: 400 Lato, sans-serif;
+}
+	html {
+			scale-x:hidden;
+	}
+	/*Start:header*/ 
+	/*Start:brand*/ 
+	.hero {
+		background:url("../img/bg-top.png");
+		background-repeat:;
+		background-size:cover;
+		height:60rem;
+	}
+	header button {
+		  background-image: linear-gradient( #06ffdf, #0042ff);
+		  transition:4s;
+		 
+	}
+	header button:hover {
+		  background-image: linear-gradient( #0042ff, #06ffdf);
+	}
+	.hero-About {
+		background:url("../img/shape-2.png");
+		background-size:cover;
+	} 
+	.Fetaured-service{
+		background:url("../img/bg-section1.jpg");
+		background-size:cover;
+	}
+	/*End:brand*/
+	/*End:header*/
+	/*Start:Fetaured-service*/
+	.rocket { 
+  position: relative;
+  animation: myfirst 5s linear  infinite alternate;
+}
+
+	@keyframes myfirst {
+	  0%   {background-color:; left:0px; top:0px;}
+	  25%  {background-color:; left:0px; top:0px;}
+	  50%  {background-color:; left:0px; top:100px;}
+	  75%  {background-color:; left:0px; top:100px;}
+	  100% {background-color:; left:0px; top:0px;}
+	}
+	.Fetaured-service .fa-xs{    
+		background: #842AF1;
+	}
+	.Fetaured-service .action {
+		background:#842AF1;
+	}
+	.Fetaured-service .demos:hover{
+		background:#842AF1;
+	}
+	.insurance-cards, .carousel-item .borders:hover {
+		background:#fff;
+	}
+	.{
+		    background-color: var(--gradient-color-from);
+    /* background-image: -webkit-gradient(linear, left top, right top, from(var(--gradient-color-from)), to(var(--gradient-color-to))); */
+    /* background-image: -webkit-linear-gradient(to right, var(--gradient-color-from), var(--gradient-color-to)); */
+    /* background-image: -moz-linear-gradient(to right, var(--gradient-color-from), var(--gradient-color-to)); */
+    /* background-image: -ms-linear-gradient(to right, var(--gradient-color-from), var(--gradient-color-to)); */
+    /* background-image: -o-linear-gradient(to right, var(--gradient-color-from), var(--gradient-color-to)); */
+    /* background-image: linear-gradient(to right, var(--gradient-color-from), var(--gradient-color-to));
+	}
+	/*End:Fetaured-service*/
+	}
+	/*Start: About company*/
+	.About-company {
+		
+	}
+	.Features{
+		background:#EFF5FC;
+	}
+	/*End : About company*/
+	/*End : Subscribe*/
+	.Subscribe{
+		background:url(".v./img/banner-2.png");
+		background-repeat:no-repeat;
+	}
+	.Subscribe .cloud{
+		 position: relative;
+  animation: mycloud 20s linear  infinite ;
+}
+
+	@keyframes mycloud {
+	  0%   {background-color:; left:0px; top:0px;}
+	  25%  {background-color:; left:0px; top:0px;}
+	  50%  {background-color:; left:300px; right:300px;}
+	  75%  {background-color:;  right:300px; left:300px;}
+	  100% {background-color:; left:0px; top:0px;}
+	}
+	/*End : Subscribe*/
+	/*Start: Easy Steps*/
+	    .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: -webkit-linear-gradient(left, #06ffdf, #0042ff);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .col-md-3 img {
+            height: 600px;
+            object-fit: cover;
+        }
+		.col-md-3:hover .overlay {
+            opacity: 0.8;
+        }
+        .btn:hover {
+            background-image: -webkit-linear-gradient(left, #06ffdf, #0042ff);
+            border: #0042ff;
+        }
+	/*End : Easy Steps*/
+	.bg-color{
+		background:#ccc;
+	}
+	/*team-member cards*/
+	.bg-color:hover{
+		background:#ffc107;
+	}
+	/*End : team-member cards*/
+	/*Start: footer*/
+	footer {
+		background-attachment:fixed;
+	}
+	.list-unstyled li a {
+		color:#ccc;
+		transition: 1s;
+		
+	}
+	.list-unstyled li a:hover{
+		color:#fff;
+		margin-left:1rem;
+	}
+	/*End: footer*/
+	/* Bottom Arrow Icon */
+	.bottom-icon10 {
+		position: fixed;
+		bottom: 50px;
+		right: 40px;
+		width: 50px;
+		height: 50px;
+		background-color:linear-gradient( #06ffdf, #0042ff);
+		background-image: linear-gradient( #06ffdf, #0042ff);
+		color: #ffffff;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.0rem;
+		cursor: pointer;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		z-index:3;
+		text-align:center;
+	}
